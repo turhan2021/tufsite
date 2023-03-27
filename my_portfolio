@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tuf-solutions.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("desktop2.jpg");
+  min-height: 150%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("image1.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("cpu.jpg ");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right w3-" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#Linux" class="w3-bar-item w3-button">LINUX</a>
+    <a href="#BLOG" class="w3-bar-item w3-button">BLOG</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    <p>Website can be access Now "www.tuf-solution.com"<p>
+      <i class="fa fa-search"></i>
+
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-large">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#Linux" class="w3-bar-item w3-button">LINUX</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+     <p>Website can be access Now "www.tuf-solution.com"<p>
+
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">Welcome <span class="w3-hide-small"> To  </span> Tuf Solutions </span>
+  </div>
+
+</div>
+<div class="w3-content w3-container w3-padding-64" id="Quote of the Day">
+<h3 class="w3-center">Message of the Day</h3>
+
+ <p class="w3-center"><em>"Never feel hurt from people because some people are lame and they come into your life to tell you that they are lame"</em></p>
+</div>
+
+</div>
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I Am Passionate About Technology</em></p>
+  <p>Welcome to my website! My name is Muhammad Irbaz Saeed, and I currently work
+as a Linux Engineer. I have a proven understanding of the technical requirements
+that are needed to improve system accuracy and reliability. I also have expert-level
+experience in implementation and operational support of Linux within physical and
+virtual environments such as Bare Metal, VMWare and Cloud (AWS). I handle servers
+such as provisioning, maintaining, patching, decommissioning, user management,
+storage management, monitoring, troubleshooting and automation within Ansible,
+Ansible Tower, JIRA, GIT, Docker, Bash Scripting and Nagios platforms. I have been
+working with different protocols such as HTTP, SSH, NFS, DHCP, DNS, Link
+Management, Firewall, LVM and Cronjob, and I use different remote session tools
+such as VSCode, Mobaxterm and Putty. I am seeking opportunities where I can
+deploy my experience and can learn new technologies</p>
+ <img src="datacenter.jpg" style="width:100%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="Data center">
+</div>
+
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="mobotufcpu.jpg" class="w3-round w3-image w3-right w3-opacity w3-hover-opacity-off" alt="tuf gaming" width="450" height="333">
+
+    </div>
+
+
+
+
+
+ 
+
+<p><b><i class="fa fa-user w3-margin-middle"></i>Muhammad I Saeed <b><p><b>
+ <p> I am a passionate and motivated person who has 5 years of experience 
+in the IT industry.<p>
+ I consider myself a very organized, trustworthy and career-driven person in
+my professional and personal life.<p>
+ I am a sociable person who enjoys talking and
+making connections in my spare time.<p>
+In order to increase my productivity, I use
+proven techniques such as working out and using 
+holistic supplements to perform better at work and in my personal life.</p>
+<p> I Love to keep myself update with Technology, I have subscriptions of different online platforms such as over the youtube,Udemy and EDx , EDx Specially offers University recognized Certifications for
+No charge,Just imagine having an HARWARD Certificate on your hands for free, Sounds Perfect if I am not wrong, The most Motivated and content Youtube channel for me is "Network Chuck" Thank me later for 
+recomendation.<p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Vmware and Virtualization</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  
+  <div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Security</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  
+  <div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Linux Administration</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-large">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my Expertise and Recommendations<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="Ansible-366x238.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ansible logo">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="CentOS-logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Centos logo">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="Docker-Logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Docker logo">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="Red_Hat_new_BW.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Redhat Logo">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="Dell_PowerEdge_servers.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="IDRAC Servers">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="changing path with variables.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Variables">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="depoly webserver with ansible 2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Server deployment">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="using conditions.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ansible conditions">
+    </div>
+
+  <div class="w3-col m3">
+      <img src="docker process.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Docker Process">
+    </div>
+
+ <div class="w3-col m3">
+      <img src="mobaxterm.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Moba x term Interface">
+    </div>
+
+ <div class="w3-col m3">
+      <img src="vscode.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Visual studio Code">
+    </div>
+
+<div class="w3-col m3">
+      <img src="github.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Git Repo">
+    </div>
+
+
+
+  <div class="w3-col m3">
+      <img src="linuxbible1.jpeg" style="width:100%" height="250" onclick="onClick(this)" class="w3-hover-opacity" alt="My best Recommendation if your are looking to kickstart in industry">
+    </div>
+
+
+  <div class="w3-col m3">
+      <img src="troubleshooting book.jpg" style="width:100%" height="250" onclick="onClick(this)" class="w3-hover-opacity" alt="My best Recommendation to save your life and practice">
+    </div>
+
+
+  <div class="w3-col m3">
+      <img src="aws.jpg" style="width:100%" height="250" onclick="onClick(this)" class="w3-hover-opacity" alt="Amazon cloud services">
+    </div>
+
+  <div class="w3-col m3">
+      <img src="linode.jpg" style="width:100%" height="250" onclick="onClick(this)" class="w3-hover-opacity" alt="Linode cloud services">
+    </div>
+
+
+
+
+
+
+
+<!-- Container (LINUX Section) -->
+<div class="w3-content w3-container w3-padding-64" id="Linux">
+  <h3 class="w3-center">LINUX</h3>
+  <p class="w3-center"><em>Linux and it's attributes</em></p>
+  <p>Linux is an open source OS and have more security adundance than any other available operating system in the market.
+Let's classify Difference between commercial and non commercial use,
+Redhat is an open source company which combines open source Linux components  with related programs and distribution package management, it does provide 
+24/7 commercial support and along many other services such as Redhat satelite,Capsule servers,Ansible automation etc..
+Linux distributions such as Centos,Ubuntu,Kali Linux are mostly for an individual users with no support but have almost same features as REDHAT provides.
+
+<!-- Container (LINUX Section) -->
+<div class="w3-content w3-container w3-padding-64" id="What makes a difference?">
+  <h3 class="w3-center"></h3>
+  <p class="w3-center"><em>Why Linux than other Operating Systems?</em></p>
+ </p>Ofcourse Linux is better when we are talking about industry level Management Because it is more secure,stable,Open source,Provides advance technology such as Dockers,Kubernetes and so on 
+ But GUI (Graphical user interface) is easy to use even a non-technical person can operate it in a visual Environment.Although Linux distro also have Graphical interface but not famous among non technical 
+individual but that is a plus point because it makes linux less susceptible to viruses,Since it is not widely used as other OS's , it will not be an attractive target for Hackers to send malware and viruses.
+
+
+      <img src="linuxdesktop.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="desktop">
+</div>
+
+<!-- Container (BLOG Section) -->
+<div class="w3-content w3-container w3-padding-64" id="BLOG">
+  <h3 class="w3-center">BLOG</h3>
+  <p class="w3-center"><em>Let's have a look on some functionalities?</em></p>
+ </p>Let's talk about very basic content of Servers, There are common components of servers, Such as Power supplies,Motherboard,CPU,RAM,HDD/SDD,NIC (NEtwork interface Card),BIOS
+Now days HP and DELL are two Main companies who are making Servers and they are much more advance than previous models , Naturally when technology is increasing and demand is on
+ peak then we will be in need to use advance technology for high availability with downtime.Intel and Amd are two major supplier for processors in the market and both are 
+competitators of each other.<p>
+<p>After turning on a server we see a a blue screen which BIOS and let the user to take the control of Motherboard.I would like to talk about RAID and It's nature of work.
+Raid is Reduntant Array OF Inexpensive or Independant Disks,This Technology Combines Multiple HDD into a Single HDD,
+Lets have a look on some of Raid Modes:
+  <p class="w3-center">
+<p>(1) RAID 0 =Striping<p>
+<p>(2) RAID 1 =Mirroring<p>
+<p>(3) RAID 5 =Striping With Parity<p>
+<p>(4) RAID 6 =Striping With Double Parity<p>
+<p>(5) RAID 10=Combines Mirroring and Striping (It Combines RAID 0 and RAID 1) <p>
+Typically RAID 10 is the most popular because it is fast and reliable where we can see RAID 6 does the double parity and it is slow but the most popular is RAID 10 But again it
+all depends on the nature of task we will be performing and all are widely being used in the industry<p>
+
+ <img src="Raid0.jpg" style="width:20%" onclick="onClick(this)" class="w3-hover-opacity" alt="Raid0">
+ <img src="Raid1.jpg" style="width:20%" onclick="onClick(this)" class="w3-hover-opacity" alt="Raid1">
+ <img src="Raid5.jpg" style="width:20%" onclick="onClick(this)" class="w3-hover-opacity" alt="Raid5">
+ <img src="Raid6.jpg" style="width:20%" onclick="onClick(this)" class="w3-hover-opacity" alt="Raid6">
+ <img src="Raid10.jpg" style="width:20%" onclick="onClick(this)" class="w3-hover-opacity" alt="Raid1+0,Raid10">
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="Dish.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Houston Tx, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 936-718-0376<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: m.i.saeed1992@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://tufsolutions.com" title="tuffsolutions" target="_blank" class="w3-hover-text-green">tufsolutions</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
+
+
