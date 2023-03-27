@@ -377,6 +377,7 @@ all depends on the nature of task we will be performing and all are widely being
           </div>
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            <label for="m.i.saeed1992@gmail.com" hidden="">Email input</label>
           </div>
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
